@@ -12,7 +12,7 @@ function App() {
   //definir funciones y se pasan como prop
   const handleClick = () => {
     
-    setNumClicks(numClicks => numClicks + 1);
+    setNumClicks((numClicks) => numClicks + 1);
     console.log(numClicks);
   };
 
