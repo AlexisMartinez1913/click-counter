@@ -13,7 +13,7 @@ function App() {
   const handleClick = () => {
     
     setNumClicks(numClicks => numClicks + 1);
-    //console.log(numClicks);
+    console.log(numClicks);
   };
 
   const restartCounter = () => {
